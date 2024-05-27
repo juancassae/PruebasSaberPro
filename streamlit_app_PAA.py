@@ -155,7 +155,7 @@ with col4:
     st.write(' ')
     st.write(' ')
     st.write(' ')
-    st.image(saber_path, width=300
+    st.image(saber_path, use_column_width=True
               )  
 with col3:
     st.markdown("""
