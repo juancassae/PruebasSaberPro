@@ -111,11 +111,11 @@ st.markdown("""
 
 logo_path = 'LogoSabana.png'
 
-col1, col2 = st.columns([1, 2])
+col1, col2 = st.columns([1, 3])
 with col1:
     st.write(' ')
     st.write(' ')
-    st.image(logo_path, width=150
+    st.image(logo_path, use_column_width=True
                     )  # Adjust width as needed
 with col2:
     st.title('Estudio de Resultados de las Pruebas Saber-Pro Colombia')
