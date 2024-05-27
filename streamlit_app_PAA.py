@@ -158,6 +158,7 @@ with col4:
     st.image(saber_path, use_column_width=True
               )  
 with col3:
+    st.write("")
     st.markdown("""
             <style>
             .justify-text {
